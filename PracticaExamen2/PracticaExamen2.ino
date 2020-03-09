@@ -19,7 +19,7 @@ void setup () {
     pinMode (led6, OUTPUT);
     pinMode (led7, OUTPUT);
 
-    Serial.begin (9400) ;
+    Serial.begin (9600) ;
 }
 
 void loop() {
