@@ -35,7 +35,7 @@ void loop() {
         delay(speed);
     }
 
-    for (int i = 12; i > 8; i--) {
+    for (int i = 12; i > 7; i--) {
         readingValue = analogRead(potenc);
         digitalWrite(i,HIGH) ;
         delay(speed);
